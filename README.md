@@ -1,5 +1,3 @@
-# weather-dashboard
-
 <a name="readme-top"></a>
 
 [![Contributors][contributors-shield]][contributors-url]
@@ -80,6 +78,7 @@ VS Code<br>
 JavaScript<br>
 HTML<br>
 CSS<br>
+OpenWeather - 5 day weather forecast<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,7 +121,7 @@ Here're some screenshots from early ideas of the wireframe. See how we went from
 - [ ] You can view your new or previous entries by clicking view all entries
 - [ ] Logout when you are done
 
-See the [open issues](https://github.com/crangel93/online-journal/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/danpoggetti/weather-dashboard/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -173,12 +172,12 @@ Demo Link: [https://danpoggetti.github.io/weather-dashboard/]
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-We want to acknowledge the many great and vast resouces that adided us in creating this online journal.
+I want to acknowledge the many great and vast resouces that adided us in creating this weather dashboard app.
 
 * [Google](https://www.google.com)
 * [YouTube](https://www.youtube.com)
 * [GitHub Pages](https://pages.github.com)
-* [GitHub Pages](https://pages.github.com)
+* [OpenWeather](https://openweathermap.org/forecast5)
 * [README Template courtesy of othneildrew](https://github.com/othneildrew/Best-README-Template)
 * [MIT License text](https://mit-license.org/license.txt)
 * [Shields.io for badges](https://shields.io/)
