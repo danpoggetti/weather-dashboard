@@ -40,6 +40,32 @@ sub_btn.addEventListener('click', function(){
         var img2Icon2 = document.getElementById('picture2');
         img2Icon2.src=imgSrc2;
 
+
+     // Day 2 of 5 day forecast:
+
+     var currentDate3 = data.list[8].dt_txt; //will display current date
+    //const icon = data.list[0].weather[0].icon; //will display weather icon
+     var tem3 = data.list[8].main.temp; //temp displays K, need to convert to F
+     var temp3 =  (tem3 - 273.15 ) * 1.8 + 32; // equation converts to F
+     var tempWeather3 = Math.round(temp3);
+     var description3 = data.list[8].weather[0].description; //will display verbiage for weather condition
+     var wind3 = data.list[8].wind.speed; //will display the wind strength
+     var humid3 = data.list[8].main.humidity; //will display humidity
+
+
+    document.getElementById('weather_date3').innerHTML = currentDate3;
+    //document.getElementById('icon').innerHTML = icon;
+    document.getElementById('temp3').innerHTML = tempWeather3;
+    document.getElementById('desc3').innerHTML = description3;
+    document.getElementById('wind3').innerHTML = wind3;
+    document.getElementById('humid3').innerHTML = humid3;
+ 
+ 
+    var icon3 = data.list[8].weather[0].icon;
+    var imgSrc3 = 'https://openweathermap.org/img/w/'+icon3+'.png';
+    var img3Icon3 = document.getElementById('picture3');
+    img3Icon3.src=imgSrc3;
+
     })
 })
 
