@@ -65,7 +65,7 @@ I want a user to be able to:
 <li>When a user clicks on a city in the search history:<br>They will be presented with current and future conditions for the city.</li>
 </ol>
 
-![](./Assests/images/homepage-image.png)
+![](./assets/images/weather_dash.png)<br>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,12 +95,10 @@ Below you'll be able to see screen shots of the deployed app. You can also view 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Here're some screenshots from early ideas of the wireframe. See how we went from initial plans to our full-functioning website.
+Here's a screen shot of what the app looks like when someone enters the name of a city. The app will display the current: temp, icon of the weaher, weather desc., wind speed and humidity.
 
-![](./Assests/images/wireframe-login.png)
-![](./Assests/images/wireframe-signup.png)
-![](./Assests/images/wireframe-dashboard.png)
-![](./Assests/images/wireframe-all-entries.png)
+![](./assets/images/weather_dashboard_example.png)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,17 +107,16 @@ Here're some screenshots from early ideas of the wireframe. See how we went from
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Click Start My Journal
-- [ ] Enter your information to create a free account
-- [ ] Use your login credentials to open your dashboard
-- [ ] Inside the dashboard, you can select what you want to do:
-    - [ ] Create new entry
-    - [ ] View all entries
-    - [ ] Logout
-- [ ] Creating a new entry will allow you to title and write within the text area
-- [ ] Saving your entry will store it in the view all entries area
-- [ ] You can view your new or previous entries by clicking view all entries
-- [ ] Logout when you are done
+- [ ] Let's get a 5-day forecast for any city in the world!
+- [ ] Enter the name of the city you want to search for and click "submit"
+- [ ] The weather app will utilize the open weather API and fetch:
+    - [ ] City name
+    - [ ] Date
+    - [ ] Current temp
+    - [ ] Current icon showing the weather condition
+    - [ ] Current weather description
+    - [ ] Current wind pattern
+    - [ ] Current humidity
 
 See the [open issues](https://github.com/danpoggetti/weather-dashboard/issues) for a full list of proposed features (and known issues).
 
