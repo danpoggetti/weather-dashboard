@@ -56,3 +56,25 @@ h1 {
 .forecast {
     text-align: center;
 }
+
+
+.five_day_forecast {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.weather_forecast {
+    background-color: rgba(255,255,255,0.2);
+    border-style: solid;
+    border-radius: 10px;
+    border: 1px black;
+    margin: 0 10px 10px;
+    padding: 30px 5px 20px;
+    box-sizing: border-box;
+    min-width: 150px;
+
+}
