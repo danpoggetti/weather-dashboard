@@ -44,3 +44,15 @@ h1 {
     border: black;
     margin: 0 15px;
 }
+
+.current_day {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-right: 50px;
+
+}
+
+.forecast {
+    text-align: center;
+}
